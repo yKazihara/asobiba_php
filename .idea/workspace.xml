@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="四則演算サンプル">
-      <change afterPath="$PROJECT_DIR$/sample/sprintf_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="printf、sprintf、nl2brのサンプル">
+      <change afterPath="$PROJECT_DIR$/sample/array_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_arithmetic_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/four_arithmetic_sample.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/helloworld.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hellowworld2.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/hellowworld2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "PHP スクリプト.array_sample.php.executor": "Run",
     "PHP スクリプト.four_arithmetic_sample.php.executor": "Run",
     "PHP スクリプト.helloworld.php.executor": "Run",
     "PHP スクリプト.hellowworld2.php.executor": "Run",
@@ -59,7 +57,10 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.sprintf_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.array_sample.php">
+    <configuration name="array_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_sample.php">
+      <method v="2" />
+    </configuration>
     <configuration name="four_arithmetic_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/four_arithmetic_sample.php">
       <method v="2" />
     </configuration>
@@ -74,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.array_sample.php" />
         <item itemvalue="PHP スクリプト.sprintf_sample.php" />
         <item itemvalue="PHP スクリプト.four_arithmetic_sample.php" />
         <item itemvalue="PHP スクリプト.hellowworld2.php" />
@@ -92,7 +94,8 @@
       <workItem from="1730463305311" duration="431000" />
       <workItem from="1732280436445" duration="250000" />
       <workItem from="1732366082285" duration="712000" />
-      <workItem from="1732452494485" duration="420000" />
+      <workItem from="1732452494485" duration="626000" />
+      <workItem from="1732538736101" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -118,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732366521571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="printf、sprintf、nl2brのサンプル">
+      <option name="closed" value="true" />
+      <created>1732453127343</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732453127343</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +139,7 @@
     <MESSAGE value="Initialコミット" />
     <MESSAGE value="ハローワールドパート２" />
     <MESSAGE value="四則演算サンプル" />
-    <option name="LAST_COMMIT_MESSAGE" value="四則演算サンプル" />
+    <MESSAGE value="printf、sprintf、nl2brのサンプル" />
+    <option name="LAST_COMMIT_MESSAGE" value="printf、sprintf、nl2brのサンプル" />
   </component>
 </project>
