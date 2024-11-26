@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="printf、sprintf、nl2brのサンプル">
-      <change afterPath="$PROJECT_DIR$/sample/array_sample.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="arrayのサンプル" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,38 +30,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "PHP スクリプト.array_sample.php.executor": "Run",
-    "PHP スクリプト.four_arithmetic_sample.php.executor": "Run",
-    "PHP スクリプト.helloworld.php.executor": "Run",
-    "PHP スクリプト.hellowworld2.php.executor": "Run",
-    "PHP スクリプト.sprintf_sample.php.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PHP スクリプト.array_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.four_arithmetic_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.helloworld.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.hellowworld2.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.sprintf_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.array_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.foreach_sample.php">
     <configuration name="array_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="four_arithmetic_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/four_arithmetic_sample.php">
+    <configuration name="foreach_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/foreach_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="helloworld.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/helloworld.php">
+    <configuration name="four_arithmetic_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/four_arithmetic_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="hellowworld2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/hellowworld2.php">
@@ -75,11 +72,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.foreach_sample.php" />
         <item itemvalue="PHP スクリプト.array_sample.php" />
         <item itemvalue="PHP スクリプト.sprintf_sample.php" />
         <item itemvalue="PHP スクリプト.four_arithmetic_sample.php" />
         <item itemvalue="PHP スクリプト.hellowworld2.php" />
-        <item itemvalue="PHP スクリプト.helloworld.php" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +92,7 @@
       <workItem from="1732280436445" duration="250000" />
       <workItem from="1732366082285" duration="712000" />
       <workItem from="1732452494485" duration="626000" />
-      <workItem from="1732538736101" duration="321000" />
+      <workItem from="1732538736101" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -129,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732453127343</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="arrayのサンプル">
+      <option name="closed" value="true" />
+      <created>1732539115484</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732539115484</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +145,7 @@
     <MESSAGE value="ハローワールドパート２" />
     <MESSAGE value="四則演算サンプル" />
     <MESSAGE value="printf、sprintf、nl2brのサンプル" />
-    <option name="LAST_COMMIT_MESSAGE" value="printf、sprintf、nl2brのサンプル" />
+    <MESSAGE value="arrayのサンプル" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrayのサンプル" />
   </component>
 </project>
