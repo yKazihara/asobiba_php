@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="arrayのサンプル" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="ループ（foreach） asの後の引数に&amp;をつけると、参照渡しになるサンプル">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +35,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;PHP スクリプト.array_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.foreach_sample.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP スクリプト.four_arithmetic_sample.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP スクリプト.helloworld.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP スクリプト.hellowworld2.php.executor&quot;: &quot;Run&quot;,
@@ -54,8 +57,11 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.foreach_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.foreach_if_sample.php">
     <configuration name="array_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_sample.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="foreach_if_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/foreach_if_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="foreach_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/foreach_sample.php">
@@ -64,19 +70,16 @@
     <configuration name="four_arithmetic_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/four_arithmetic_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="hellowworld2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/hellowworld2.php">
-      <method v="2" />
-    </configuration>
     <configuration name="sprintf_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/sprintf_sample.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.foreach_if_sample.php" />
         <item itemvalue="PHP スクリプト.foreach_sample.php" />
         <item itemvalue="PHP スクリプト.array_sample.php" />
         <item itemvalue="PHP スクリプト.sprintf_sample.php" />
         <item itemvalue="PHP スクリプト.four_arithmetic_sample.php" />
-        <item itemvalue="PHP スクリプト.hellowworld2.php" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +96,7 @@
       <workItem from="1732366082285" duration="712000" />
       <workItem from="1732452494485" duration="626000" />
       <workItem from="1732538736101" duration="409000" />
+      <workItem from="1732625374643" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -134,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732539115484</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ループ（foreach） asの後の引数に&amp;をつけると、参照渡しになるサンプル">
+      <option name="closed" value="true" />
+      <created>1732625644214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732625644214</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +158,7 @@
     <MESSAGE value="四則演算サンプル" />
     <MESSAGE value="printf、sprintf、nl2brのサンプル" />
     <MESSAGE value="arrayのサンプル" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrayのサンプル" />
+    <MESSAGE value="ループ（foreach） asの後の引数に&amp;をつけると、参照渡しになるサンプル" />
+    <option name="LAST_COMMIT_MESSAGE" value="ループ（foreach） asの後の引数に&amp;をつけると、参照渡しになるサンプル" />
   </component>
 </project>
