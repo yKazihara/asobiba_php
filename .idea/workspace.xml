@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="foreachとifのサンプル" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="日付のサンプル。ちょっとモヤッとする。">
+      <change afterPath="$PROJECT_DIR$/sample/global_sample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,37 +33,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;PHP スクリプト.array_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.foreach_if_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.foreach_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.four_arithmetic_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.helloworld.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.hellowworld2.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.sprintf_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "PHP スクリプト.array_sample.php.executor": "Run",
+    "PHP スクリプト.comment_sample.php.executor": "Run",
+    "PHP スクリプト.date_sample.php.executor": "Run",
+    "PHP スクリプト.foreach_if_sample.php.executor": "Run",
+    "PHP スクリプト.foreach_sample.php.executor": "Run",
+    "PHP スクリプト.four_arithmetic_sample.php.executor": "Run",
+    "PHP スクリプト.global_sample.php.executor": "Run",
+    "PHP スクリプト.helloworld.php.executor": "Run",
+    "PHP スクリプト.hellowworld2.php.executor": "Run",
+    "PHP スクリプト.sprintf_sample.php.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.comment_sample.php">
-    <configuration name="array_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.global_sample.php">
+    <configuration name="comment_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/comment_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="comment_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/comment_sample.php">
+    <configuration name="date_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/date_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="foreach_if_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/foreach_if_sample.php">
@@ -69,16 +75,16 @@
     <configuration name="foreach_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/foreach_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="sprintf_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/sprintf_sample.php">
+    <configuration name="global_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/global_sample.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.global_sample.php" />
+        <item itemvalue="PHP スクリプト.date_sample.php" />
         <item itemvalue="PHP スクリプト.comment_sample.php" />
         <item itemvalue="PHP スクリプト.foreach_if_sample.php" />
         <item itemvalue="PHP スクリプト.foreach_sample.php" />
-        <item itemvalue="PHP スクリプト.array_sample.php" />
-        <item itemvalue="PHP スクリプト.sprintf_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -97,6 +103,7 @@
       <workItem from="1732538736101" duration="409000" />
       <workItem from="1732625374643" duration="390000" />
       <workItem from="1732711444991" duration="277000" />
+      <workItem from="1732797435193" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -154,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732711609419</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="コメントのサンプル">
+      <option name="closed" value="true" />
+      <created>1732797552928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732797552928</updated>
+    </task>
+    <task id="LOCAL-00009" summary="日付のサンプル。ちょっとモヤッとする。">
+      <option name="closed" value="true" />
+      <created>1732797833714</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732797833714</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +191,8 @@
     <MESSAGE value="arrayのサンプル" />
     <MESSAGE value="ループ（foreach） asの後の引数に&amp;をつけると、参照渡しになるサンプル" />
     <MESSAGE value="foreachとifのサンプル" />
-    <option name="LAST_COMMIT_MESSAGE" value="foreachとifのサンプル" />
+    <MESSAGE value="コメントのサンプル" />
+    <MESSAGE value="日付のサンプル。ちょっとモヤッとする。" />
+    <option name="LAST_COMMIT_MESSAGE" value="日付のサンプル。ちょっとモヤッとする。" />
   </component>
 </project>
