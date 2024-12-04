@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="文字比較のサンプル。" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="文字列を置換するサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/explode_implode_sample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,46 +33,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;PHP スクリプト.array_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.character_concatenation_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.comment_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.date_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.explode_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.foreach_if_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.foreach_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.four_arithmetic_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.global_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.helloworld.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.hellowworld2.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.sprintf_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.strcmp_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "PHP スクリプト.array_sample.php.executor": "Run",
+    "PHP スクリプト.character_concatenation_sample.php.executor": "Run",
+    "PHP スクリプト.comment_sample.php.executor": "Run",
+    "PHP スクリプト.date_sample.php.executor": "Run",
+    "PHP スクリプト.explode_implode_sample.php.executor": "Run",
+    "PHP スクリプト.explode_sample.php.executor": "Run",
+    "PHP スクリプト.foreach_if_sample.php.executor": "Run",
+    "PHP スクリプト.foreach_sample.php.executor": "Run",
+    "PHP スクリプト.four_arithmetic_sample.php.executor": "Run",
+    "PHP スクリプト.global_sample.php.executor": "Run",
+    "PHP スクリプト.helloworld.php.executor": "Run",
+    "PHP スクリプト.hellowworld2.php.executor": "Run",
+    "PHP スクリプト.sprintf_sample.php.executor": "Run",
+    "PHP スクリプト.str_replace_sample.php.executor": "Run",
+    "PHP スクリプト.strcmp_sample.php.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.str_replace_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.explode_implode_sample.php">
     <configuration name="character_concatenation_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/character_concatenation_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="explode_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/explode_sample.php">
+    <configuration name="explode_implode_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/explode_implode_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="global_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/global_sample.php">
+    <configuration name="explode_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/explode_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="str_replace_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/str_replace_sample.php">
@@ -80,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.explode_implode_sample.php" />
         <item itemvalue="PHP スクリプト.str_replace_sample.php" />
         <item itemvalue="PHP スクリプト.strcmp_sample.php" />
         <item itemvalue="PHP スクリプト.explode_sample.php" />
         <item itemvalue="PHP スクリプト.character_concatenation_sample.php" />
-        <item itemvalue="PHP スクリプト.global_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +111,7 @@
       <workItem from="1732797435193" duration="886000" />
       <workItem from="1732972569628" duration="456000" />
       <workItem from="1733049859199" duration="724000" />
+      <workItem from="1733230390514" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -211,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733143842114</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="文字列を置換するサンプル。">
+      <option name="closed" value="true" />
+      <created>1733230676479</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733230676479</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +245,7 @@
     <MESSAGE value="文字連結のサンプル。" />
     <MESSAGE value="文字分割のサンプル。" />
     <MESSAGE value="文字比較のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字比較のサンプル。" />
+    <MESSAGE value="文字列を置換するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列を置換するサンプル。" />
   </component>
 </project>
