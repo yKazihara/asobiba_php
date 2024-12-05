@@ -16,7 +16,7 @@ var_dump($array);
 
 $address = array('東京都','新宿区','新宿','1-1-1','XXXビル');
 // 配列を区切り文字（半角スペース）でつなげる
-print ( implode(" ", $address )); // 東京都 新宿区 新宿 1-1-1 XXXビル
-print ("\n");
+print ( implode(" ", $address )) . "\n"; // 東京都 新宿区 新宿 1-1-1 XXXビル
+
 // 配列を区切り文字無しでつなげる
 print ( implode($address )); // 東京都新宿区新宿1-1-1XXXビル
