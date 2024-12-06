@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="explodeとimplodeのサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/search_string_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="文字列検索のサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/trim_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/explode_implode_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/explode_implode_sample.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
     "PHP スクリプト.sprintf_sample.php.executor": "Run",
     "PHP スクリプト.str_replace_sample.php.executor": "Run",
     "PHP スクリプト.strcmp_sample.php.executor": "Run",
+    "PHP スクリプト.trim_sample.php.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -69,11 +69,8 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.search_string_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.trim_sample.php">
     <configuration name="explode_implode_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/explode_implode_sample.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="explode_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/explode_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="search_string_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/search_string_sample.php">
@@ -85,13 +82,16 @@
     <configuration name="strcmp_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/strcmp_sample.php">
       <method v="2" />
     </configuration>
+    <configuration name="trim_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/trim_sample.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.trim_sample.php" />
         <item itemvalue="PHP スクリプト.search_string_sample.php" />
         <item itemvalue="PHP スクリプト.explode_implode_sample.php" />
         <item itemvalue="PHP スクリプト.str_replace_sample.php" />
         <item itemvalue="PHP スクリプト.strcmp_sample.php" />
-        <item itemvalue="PHP スクリプト.explode_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +114,7 @@
       <workItem from="1732972569628" duration="456000" />
       <workItem from="1733049859199" duration="724000" />
       <workItem from="1733230390514" duration="945000" />
-      <workItem from="1733402036469" duration="632000" />
+      <workItem from="1733402036469" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -236,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733317224083</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="文字列検索のサンプル。">
+      <option name="closed" value="true" />
+      <created>1733402708823</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733402708823</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +266,7 @@
     <MESSAGE value="文字比較のサンプル。" />
     <MESSAGE value="文字列を置換するサンプル。" />
     <MESSAGE value="explodeとimplodeのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="explodeとimplodeのサンプル。" />
+    <MESSAGE value="文字列検索のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列検索のサンプル。" />
   </component>
 </project>
