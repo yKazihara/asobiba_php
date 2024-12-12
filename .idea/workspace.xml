@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="配列をマージするサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/array_search_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="配列の要素を検索するサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,17 +72,17 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.array_search_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.array_key_exists_sample.php">
     <configuration name="add_value_to_array_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/add_value_to_array_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="array_count_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_count_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="array_merge_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_merge_sample.php">
+    <configuration name="array_key_exists_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_key_exists_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="array_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_sample.php">
+    <configuration name="array_merge_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_merge_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="array_search_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_search_sample.php">
@@ -91,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.array_key_exists_sample.php" />
         <item itemvalue="PHP スクリプト.array_search_sample.php" />
         <item itemvalue="PHP スクリプト.array_merge_sample.php" />
         <item itemvalue="PHP スクリプト.array_count_sample.php" />
         <item itemvalue="PHP スクリプト.add_value_to_array_sample.php" />
-        <item itemvalue="PHP スクリプト.array_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +120,7 @@
       <workItem from="1733402036469" duration="1134000" />
       <workItem from="1733576938836" duration="1458000" />
       <workItem from="1733748111914" duration="692000" />
-      <workItem from="1733922528582" duration="341000" />
+      <workItem from="1733922528582" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -291,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733829536872</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="配列の要素を検索するサンプル。">
+      <option name="closed" value="true" />
+      <created>1733923159165</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733923159166</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +326,7 @@
     <MESSAGE value="配列に追加するサンプル。" />
     <MESSAGE value="配列の要素数を取得するサンプル。" />
     <MESSAGE value="配列をマージするサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="配列をマージするサンプル。" />
+    <MESSAGE value="配列の要素を検索するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="配列の要素を検索するサンプル。" />
   </component>
 </project>
