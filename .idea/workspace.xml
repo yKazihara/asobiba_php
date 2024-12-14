@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="配列のキーが存在するか調べるサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/array_delete_value_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="配列の要素を削除するサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/array_sort_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
     "PHP スクリプト.array_merge_sample.php.executor": "Run",
     "PHP スクリプト.array_sample.php.executor": "Run",
     "PHP スクリプト.array_search_sample.php.executor": "Run",
+    "PHP スクリプト.array_sort_sample.php.executor": "Run",
     "PHP スクリプト.character_concatenation_sample.php.executor": "Run",
     "PHP スクリプト.comment_sample.php.executor": "Run",
     "PHP スクリプト.date_sample.php.executor": "Run",
@@ -75,10 +76,7 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.array_delete_value_sample.php">
-    <configuration name="array_count_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_count_sample.php">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP スクリプト.array_sort_sample.php">
     <configuration name="array_delete_value_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_delete_value_sample.php">
       <method v="2" />
     </configuration>
@@ -91,13 +89,16 @@
     <configuration name="array_search_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_search_sample.php">
       <method v="2" />
     </configuration>
+    <configuration name="array_sort_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_sort_sample.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.array_sort_sample.php" />
         <item itemvalue="PHP スクリプト.array_delete_value_sample.php" />
         <item itemvalue="PHP スクリプト.array_key_exists_sample.php" />
         <item itemvalue="PHP スクリプト.array_search_sample.php" />
         <item itemvalue="PHP スクリプト.array_merge_sample.php" />
-        <item itemvalue="PHP スクリプト.array_count_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +125,7 @@
       <workItem from="1733576938836" duration="1458000" />
       <workItem from="1733748111914" duration="692000" />
       <workItem from="1733922528582" duration="1163000" />
-      <workItem from="1734094616922" duration="669000" />
+      <workItem from="1734094616922" duration="1338000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -310,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734003108633</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="配列の要素を削除するサンプル。">
+      <option name="closed" value="true" />
+      <created>1734095526587</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1734095526587</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +349,7 @@
     <MESSAGE value="配列をマージするサンプル。" />
     <MESSAGE value="配列の要素を検索するサンプル。" />
     <MESSAGE value="配列のキーが存在するか調べるサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="配列のキーが存在するか調べるサンプル。" />
+    <MESSAGE value="配列の要素を削除するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="配列の要素を削除するサンプル。" />
   </component>
 </project>
