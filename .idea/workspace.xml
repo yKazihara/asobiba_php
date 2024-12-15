@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="配列の要素を削除するサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/array_sort_sample.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="配列をソートするサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,57 +30,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "PHP スクリプト.add_value_to_array_sample.php.executor": "Run",
-    "PHP スクリプト.array_count_sample.php.executor": "Run",
-    "PHP スクリプト.array_delete_value_sample.php.executor": "Run",
-    "PHP スクリプト.array_key_exists_sample.php.executor": "Run",
-    "PHP スクリプト.array_merge_sample.php.executor": "Run",
-    "PHP スクリプト.array_sample.php.executor": "Run",
-    "PHP スクリプト.array_search_sample.php.executor": "Run",
-    "PHP スクリプト.array_sort_sample.php.executor": "Run",
-    "PHP スクリプト.character_concatenation_sample.php.executor": "Run",
-    "PHP スクリプト.comment_sample.php.executor": "Run",
-    "PHP スクリプト.date_sample.php.executor": "Run",
-    "PHP スクリプト.explode_implode_sample.php.executor": "Run",
-    "PHP スクリプト.explode_sample.php.executor": "Run",
-    "PHP スクリプト.foreach_if_sample.php.executor": "Run",
-    "PHP スクリプト.foreach_sample.php.executor": "Run",
-    "PHP スクリプト.four_arithmetic_sample.php.executor": "Run",
-    "PHP スクリプト.global_sample.php.executor": "Run",
-    "PHP スクリプト.helloworld.php.executor": "Run",
-    "PHP スクリプト.hellowworld2.php.executor": "Run",
-    "PHP スクリプト.search_string_sample.php.executor": "Run",
-    "PHP スクリプト.sprintf_sample.php.executor": "Run",
-    "PHP スクリプト.str_replace_sample.php.executor": "Run",
-    "PHP スクリプト.strcmp_sample.php.executor": "Run",
-    "PHP スクリプト.trim_sample.php.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PHP スクリプト.add_value_to_array_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.array_count_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.array_delete_value_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.array_key_exists_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.array_merge_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.array_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.array_search_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.array_sort_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.character_concatenation_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.comment_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.date_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.explode_implode_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.explode_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.foreach_if_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.foreach_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.four_arithmetic_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.global_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.helloworld.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.hellowworld2.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.search_string_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.sprintf_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.str_replace_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.strcmp_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.trim_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.array_sort_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.if_sample.php">
     <configuration name="array_delete_value_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_delete_value_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="array_key_exists_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_key_exists_sample.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="array_merge_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_merge_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="array_search_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_search_sample.php">
@@ -92,13 +86,16 @@
     <configuration name="array_sort_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_sort_sample.php">
       <method v="2" />
     </configuration>
+    <configuration name="if_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/if_sample.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.if_sample.php" />
         <item itemvalue="PHP スクリプト.array_sort_sample.php" />
         <item itemvalue="PHP スクリプト.array_delete_value_sample.php" />
         <item itemvalue="PHP スクリプト.array_key_exists_sample.php" />
         <item itemvalue="PHP スクリプト.array_search_sample.php" />
-        <item itemvalue="PHP スクリプト.array_merge_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +122,7 @@
       <workItem from="1733576938836" duration="1458000" />
       <workItem from="1733748111914" duration="692000" />
       <workItem from="1733922528582" duration="1163000" />
-      <workItem from="1734094616922" duration="1338000" />
+      <workItem from="1734094616922" duration="1559000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -319,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734095526587</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="配列をソートするサンプル。">
+      <option name="closed" value="true" />
+      <created>1734180999131</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1734180999131</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +355,7 @@
     <MESSAGE value="配列の要素を検索するサンプル。" />
     <MESSAGE value="配列のキーが存在するか調べるサンプル。" />
     <MESSAGE value="配列の要素を削除するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="配列の要素を削除するサンプル。" />
+    <MESSAGE value="配列をソートするサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="配列をソートするサンプル。" />
   </component>
 </project>
