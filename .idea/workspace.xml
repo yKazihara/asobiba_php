@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="三項演算子のサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/while_sample.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="whileとdo whileのサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,11 +78,11 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.while_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.for_sample.php">
     <configuration name="elseif_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/elseif_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="if_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/if_sample.php">
+    <configuration name="for_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/for_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="switch_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/switch_sample.php">
@@ -99,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.for_sample.php" />
         <item itemvalue="PHP スクリプト.while_sample.php" />
         <item itemvalue="PHP スクリプト.ternary_operator_sample.php" />
         <item itemvalue="PHP スクリプト.switch_sample.php" />
         <item itemvalue="PHP スクリプト.elseif_sample.php" />
-        <item itemvalue="PHP スクリプト.if_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +131,7 @@
       <workItem from="1734260959665" duration="513000" />
       <workItem from="1734434710151" duration="326000" />
       <workItem from="1734494537575" duration="756000" />
-      <workItem from="1734607963463" duration="388000" />
+      <workItem from="1734607963463" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -368,14 +365,21 @@
       <option name="project" value="LOCAL" />
       <updated>1734526966859</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="whileとdo whileのサンプル。">
+      <option name="closed" value="true" />
+      <created>1734608489478</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1734608489478</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arrayのサンプル" />
     <MESSAGE value="ループ（foreach） asの後の引数に&amp;をつけると、参照渡しになるサンプル" />
     <MESSAGE value="foreachとifのサンプル" />
     <MESSAGE value="コメントのサンプル" />
@@ -400,6 +404,7 @@
     <MESSAGE value="elseif文のサンプル。" />
     <MESSAGE value="switch文のサンプル。" />
     <MESSAGE value="三項演算子のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="三項演算子のサンプル。" />
+    <MESSAGE value="whileとdo whileのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="whileとdo whileのサンプル。" />
   </component>
 </project>
