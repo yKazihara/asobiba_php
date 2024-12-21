@@ -11,6 +11,8 @@ foreach( $array as $val ){
 //4
 //5
 
+echo "\n";
+
 //配列の書き換えができない
 foreach( $array as $val ){
     $val=0;
@@ -31,6 +33,8 @@ var_dump($array);
 //  int(5)
 //}
 
+echo "\n";
+
 //&をつけると、参照先の配列書き換えが可能
 foreach( $array as &$val ){
     $val=0;
@@ -50,3 +54,23 @@ var_dump($array);
 //  [5]=>
 //  &int(0)
 //}
+
+echo "\n";
+
+$store_array = array( 'A店', 'B店', 'C店' );
+foreach ( $store_array as $store ) {
+    echo $store . "\n";
+}
+//A店
+//B店
+//C店
+
+echo "\n";
+
+$store_array = array( '東京' => 'A店', '神奈川' => 'B店', '千葉' => 'C店' );
+foreach ( $store_array as $key => $store) {
+    echo "$key : $store\n";
+}
+//東京 : A店
+//神奈川 : B店
+//千葉 : C店
