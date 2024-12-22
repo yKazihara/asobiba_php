@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="for文のサンプル。">
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="foreachのサンプル追記。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/foreach_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/foreach_sample.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +81,14 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.foreach_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.break_continue_sample.php">
+    <configuration name="break_continue_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/break_continue_sample.php">
+      <method v="2" />
+    </configuration>
     <configuration name="for_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/for_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="foreach_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/foreach_sample.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="switch_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/switch_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="ternary_operator_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/ternary_operator_sample.php">
@@ -100,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.break_continue_sample.php" />
         <item itemvalue="PHP スクリプト.foreach_sample.php" />
         <item itemvalue="PHP スクリプト.for_sample.php" />
         <item itemvalue="PHP スクリプト.while_sample.php" />
         <item itemvalue="PHP スクリプト.ternary_operator_sample.php" />
-        <item itemvalue="PHP スクリプト.switch_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +135,7 @@
       <workItem from="1734434710151" duration="326000" />
       <workItem from="1734494537575" duration="756000" />
       <workItem from="1734607963463" duration="813000" />
-      <workItem from="1734785171036" duration="286000" />
+      <workItem from="1734785171036" duration="590000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -386,14 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1734698759023</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="foreachのサンプル追記。">
+      <option name="closed" value="true" />
+      <created>1734785633540</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1734785633540</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="foreachとifのサンプル" />
     <MESSAGE value="コメントのサンプル" />
     <MESSAGE value="日付のサンプル。ちょっとモヤッとする。" />
     <MESSAGE value="globalのサンプル。読みにくいなぁ。" />
@@ -418,6 +424,7 @@
     <MESSAGE value="三項演算子のサンプル。" />
     <MESSAGE value="whileとdo whileのサンプル。" />
     <MESSAGE value="for文のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="for文のサンプル。" />
+    <MESSAGE value="foreachのサンプル追記。" />
+    <option name="LAST_COMMIT_MESSAGE" value="foreachのサンプル追記。" />
   </component>
 </project>
