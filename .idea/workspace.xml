@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="foreachのサンプル追記。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="breakとcontinueのサンプル。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +40,7 @@
     &quot;PHP スクリプト.array_sample.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP スクリプト.array_search_sample.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP スクリプト.array_sort_sample.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP スクリプト.break_continue_sample.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP スクリプト.character_concatenation_sample.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP スクリプト.comment_sample.php.executor&quot;: &quot;Run&quot;,
     &quot;PHP スクリプト.date_sample.php.executor&quot;: &quot;Run&quot;,
@@ -81,7 +80,7 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.break_continue_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.function_sample.php">
     <configuration name="break_continue_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/break_continue_sample.php">
       <method v="2" />
     </configuration>
@@ -91,7 +90,7 @@
     <configuration name="foreach_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/foreach_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="ternary_operator_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/ternary_operator_sample.php">
+    <configuration name="function_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/function_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="while_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/while_sample.php">
@@ -99,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.function_sample.php" />
         <item itemvalue="PHP スクリプト.break_continue_sample.php" />
         <item itemvalue="PHP スクリプト.foreach_sample.php" />
         <item itemvalue="PHP スクリプト.for_sample.php" />
         <item itemvalue="PHP スクリプト.while_sample.php" />
-        <item itemvalue="PHP スクリプト.ternary_operator_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +134,7 @@
       <workItem from="1734434710151" duration="326000" />
       <workItem from="1734494537575" duration="756000" />
       <workItem from="1734607963463" duration="813000" />
-      <workItem from="1734785171036" duration="590000" />
+      <workItem from="1734785171036" duration="898000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -393,14 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1734785633540</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="breakとcontinueのサンプル。">
+      <option name="closed" value="true" />
+      <created>1734862818054</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1734862818054</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="コメントのサンプル" />
     <MESSAGE value="日付のサンプル。ちょっとモヤッとする。" />
     <MESSAGE value="globalのサンプル。読みにくいなぁ。" />
     <MESSAGE value="文字連結のサンプル。" />
@@ -425,6 +431,7 @@
     <MESSAGE value="whileとdo whileのサンプル。" />
     <MESSAGE value="for文のサンプル。" />
     <MESSAGE value="foreachのサンプル追記。" />
-    <option name="LAST_COMMIT_MESSAGE" value="foreachのサンプル追記。" />
+    <MESSAGE value="breakとcontinueのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="breakとcontinueのサンプル。" />
   </component>
 </project>
