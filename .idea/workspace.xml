@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="breakとcontinueのサンプル。" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="関数のサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/class_sample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,58 +33,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;PHP スクリプト.add_value_to_array_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.array_count_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.array_delete_value_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.array_key_exists_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.array_merge_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.array_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.array_search_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.array_sort_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.break_continue_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.character_concatenation_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.comment_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.date_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.elseif_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.explode_implode_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.explode_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.for_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.foreach_if_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.foreach_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.four_arithmetic_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.global_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.helloworld.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.hellowworld2.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.if_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.search_string_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.sprintf_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.str_replace_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.strcmp_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.switch_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.ternary_operator_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.trim_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP スクリプト.while_sample.php.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "PHP スクリプト.add_value_to_array_sample.php.executor": "Run",
+    "PHP スクリプト.array_count_sample.php.executor": "Run",
+    "PHP スクリプト.array_delete_value_sample.php.executor": "Run",
+    "PHP スクリプト.array_key_exists_sample.php.executor": "Run",
+    "PHP スクリプト.array_merge_sample.php.executor": "Run",
+    "PHP スクリプト.array_sample.php.executor": "Run",
+    "PHP スクリプト.array_search_sample.php.executor": "Run",
+    "PHP スクリプト.array_sort_sample.php.executor": "Run",
+    "PHP スクリプト.break_continue_sample.php.executor": "Run",
+    "PHP スクリプト.character_concatenation_sample.php.executor": "Run",
+    "PHP スクリプト.class_sample.php.executor": "Run",
+    "PHP スクリプト.comment_sample.php.executor": "Run",
+    "PHP スクリプト.date_sample.php.executor": "Run",
+    "PHP スクリプト.elseif_sample.php.executor": "Run",
+    "PHP スクリプト.explode_implode_sample.php.executor": "Run",
+    "PHP スクリプト.explode_sample.php.executor": "Run",
+    "PHP スクリプト.for_sample.php.executor": "Run",
+    "PHP スクリプト.foreach_if_sample.php.executor": "Run",
+    "PHP スクリプト.foreach_sample.php.executor": "Run",
+    "PHP スクリプト.four_arithmetic_sample.php.executor": "Run",
+    "PHP スクリプト.function_sample.php.executor": "Run",
+    "PHP スクリプト.global_sample.php.executor": "Run",
+    "PHP スクリプト.helloworld.php.executor": "Run",
+    "PHP スクリプト.hellowworld2.php.executor": "Run",
+    "PHP スクリプト.if_sample.php.executor": "Run",
+    "PHP スクリプト.search_string_sample.php.executor": "Run",
+    "PHP スクリプト.sprintf_sample.php.executor": "Run",
+    "PHP スクリプト.str_replace_sample.php.executor": "Run",
+    "PHP スクリプト.strcmp_sample.php.executor": "Run",
+    "PHP スクリプト.switch_sample.php.executor": "Run",
+    "PHP スクリプト.ternary_operator_sample.php.executor": "Run",
+    "PHP スクリプト.trim_sample.php.executor": "Run",
+    "PHP スクリプト.while_sample.php.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.function_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.class_sample.php">
     <configuration name="break_continue_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/break_continue_sample.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="class_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/class_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="for_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/for_sample.php">
@@ -93,16 +101,13 @@
     <configuration name="function_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/function_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="while_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/while_sample.php">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.class_sample.php" />
         <item itemvalue="PHP スクリプト.function_sample.php" />
         <item itemvalue="PHP スクリプト.break_continue_sample.php" />
         <item itemvalue="PHP スクリプト.foreach_sample.php" />
         <item itemvalue="PHP スクリプト.for_sample.php" />
-        <item itemvalue="PHP スクリプト.while_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +140,8 @@
       <workItem from="1734494537575" duration="756000" />
       <workItem from="1734607963463" duration="813000" />
       <workItem from="1734785171036" duration="898000" />
+      <workItem from="1734957712459" duration="294000" />
+      <workItem from="1735044429306" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -400,14 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1734862818054</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="関数のサンプル。">
+      <option name="closed" value="true" />
+      <created>1734957979252</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1734957979252</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="日付のサンプル。ちょっとモヤッとする。" />
     <MESSAGE value="globalのサンプル。読みにくいなぁ。" />
     <MESSAGE value="文字連結のサンプル。" />
     <MESSAGE value="文字分割のサンプル。" />
@@ -432,6 +446,7 @@
     <MESSAGE value="for文のサンプル。" />
     <MESSAGE value="foreachのサンプル追記。" />
     <MESSAGE value="breakとcontinueのサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="breakとcontinueのサンプル。" />
+    <MESSAGE value="関数のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="関数のサンプル。" />
   </component>
 </project>
