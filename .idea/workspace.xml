@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="関数のサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/class_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="クラスのサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/construct_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
     "PHP スクリプト.character_concatenation_sample.php.executor": "Run",
     "PHP スクリプト.class_sample.php.executor": "Run",
     "PHP スクリプト.comment_sample.php.executor": "Run",
+    "PHP スクリプト.construct_sample.php.executor": "Run",
     "PHP スクリプト.date_sample.php.executor": "Run",
     "PHP スクリプト.elseif_sample.php.executor": "Run",
     "PHP スクリプト.explode_implode_sample.php.executor": "Run",
@@ -85,14 +86,14 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.class_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.construct_sample.php">
     <configuration name="break_continue_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/break_continue_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="class_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/class_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="for_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/for_sample.php">
+    <configuration name="construct_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/construct_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="foreach_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/foreach_sample.php">
@@ -103,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.construct_sample.php" />
         <item itemvalue="PHP スクリプト.class_sample.php" />
         <item itemvalue="PHP スクリプト.function_sample.php" />
         <item itemvalue="PHP スクリプト.break_continue_sample.php" />
         <item itemvalue="PHP スクリプト.foreach_sample.php" />
-        <item itemvalue="PHP スクリプト.for_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,8 @@
       <workItem from="1734607963463" duration="813000" />
       <workItem from="1734785171036" duration="898000" />
       <workItem from="1734957712459" duration="294000" />
-      <workItem from="1735044429306" duration="339000" />
+      <workItem from="1735044429306" duration="392000" />
+      <workItem from="1735130846460" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -415,14 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1734957979252</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="クラスのサンプル。">
+      <option name="closed" value="true" />
+      <created>1735044821588</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1735044821588</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="globalのサンプル。読みにくいなぁ。" />
     <MESSAGE value="文字連結のサンプル。" />
     <MESSAGE value="文字分割のサンプル。" />
     <MESSAGE value="文字比較のサンプル。" />
@@ -447,6 +456,7 @@
     <MESSAGE value="foreachのサンプル追記。" />
     <MESSAGE value="breakとcontinueのサンプル。" />
     <MESSAGE value="関数のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="関数のサンプル。" />
+    <MESSAGE value="クラスのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="クラスのサンプル。" />
   </component>
 </project>
