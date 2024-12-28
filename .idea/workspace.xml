@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="クラス変数とインスタンス変数のサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/access_modifiers_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="アクセス修飾子のサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/class_extends_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,7 @@
     "PHP スクリプト.array_sort_sample.php.executor": "Run",
     "PHP スクリプト.break_continue_sample.php.executor": "Run",
     "PHP スクリプト.character_concatenation_sample.php.executor": "Run",
+    "PHP スクリプト.class_extends_sample.php.executor": "Run",
     "PHP スクリプト.class_sample.php.executor": "Run",
     "PHP スクリプト.comment_sample.php.executor": "Run",
     "PHP スクリプト.construct_sample.php.executor": "Run",
@@ -88,8 +89,11 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.access_modifiers_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.class_extends_sample.php">
     <configuration name="access_modifiers_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/access_modifiers_sample.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="class_extends_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/class_extends_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="class_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/class_sample.php">
@@ -98,19 +102,16 @@
     <configuration name="construct_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/construct_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="function_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/function_sample.php">
-      <method v="2" />
-    </configuration>
     <configuration name="variable_instance_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/variable_instance_sample.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.class_extends_sample.php" />
         <item itemvalue="PHP スクリプト.access_modifiers_sample.php" />
         <item itemvalue="PHP スクリプト.variable_instance_sample.php" />
         <item itemvalue="PHP スクリプト.construct_sample.php" />
         <item itemvalue="PHP スクリプト.class_sample.php" />
-        <item itemvalue="PHP スクリプト.function_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +147,7 @@
       <workItem from="1734957712459" duration="294000" />
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
-      <workItem from="1735189897895" duration="1364000" />
+      <workItem from="1735189897895" duration="2015000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -444,14 +445,21 @@
       <option name="project" value="LOCAL" />
       <updated>1735213837946</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="アクセス修飾子のサンプル。">
+      <option name="closed" value="true" />
+      <created>1735307964868</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1735307964868</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字比較のサンプル。" />
     <MESSAGE value="文字列を置換するサンプル。" />
     <MESSAGE value="explodeとimplodeのサンプル。" />
     <MESSAGE value="文字列検索のサンプル。" />
@@ -476,6 +484,7 @@
     <MESSAGE value="クラスのサンプル。" />
     <MESSAGE value="コンストラクタのサンプル。" />
     <MESSAGE value="クラス変数とインスタンス変数のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="クラス変数とインスタンス変数のサンプル。" />
+    <MESSAGE value="アクセス修飾子のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="アクセス修飾子のサンプル。" />
   </component>
 </project>
