@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="文字列の一部分を抽出するサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/strtotime_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="strtotime関数を使い日付・時間表示するサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/json_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,7 @@
     "PHP スクリプト.helloworld.php.executor": "Run",
     "PHP スクリプト.hellowworld2.php.executor": "Run",
     "PHP スクリプト.if_sample.php.executor": "Run",
+    "PHP スクリプト.json_sample.php.executor": "Run",
     "PHP スクリプト.null_judgment_sample.php.executor": "Run",
     "PHP スクリプト.search_string_sample.php.executor": "Run",
     "PHP スクリプト.sprintf_sample.php.executor": "Run",
@@ -93,11 +94,11 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.strtotime_sample.php">
-    <configuration name="class_extends_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/class_extends_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.json_sample.php">
+    <configuration name="exeption_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/exeption_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="exeption_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/exeption_sample.php">
+    <configuration name="json_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/json_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="null_judgment_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/null_judgment_sample.php">
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.json_sample.php" />
         <item itemvalue="PHP スクリプト.strtotime_sample.php" />
         <item itemvalue="PHP スクリプト.substr_sample.php" />
         <item itemvalue="PHP スクリプト.exeption_sample.php" />
         <item itemvalue="PHP スクリプト.null_judgment_sample.php" />
-        <item itemvalue="PHP スクリプト.class_extends_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +152,8 @@
       <workItem from="1734957712459" duration="294000" />
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
-      <workItem from="1735189897895" duration="7147000" />
+      <workItem from="1735189897895" duration="7904000" />
+      <workItem from="1735684731686" duration="397000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -489,14 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1735533772594</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="strtotime関数を使い日付・時間表示するサンプル。">
+      <option name="closed" value="true" />
+      <created>1735632616762</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1735632616762</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="配列の初期化サンプルにPHP5.4から使える短縮構文を追記。" />
     <MESSAGE value="配列に追加するサンプル。" />
     <MESSAGE value="配列の要素数を取得するサンプル。" />
     <MESSAGE value="配列をマージするサンプル。" />
@@ -521,6 +530,7 @@
     <MESSAGE value="NULL判定のサンプル。" />
     <MESSAGE value="例外処理のサンプル。" />
     <MESSAGE value="文字列の一部分を抽出するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列の一部分を抽出するサンプル。" />
+    <MESSAGE value="strtotime関数を使い日付・時間表示するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="strtotime関数を使い日付・時間表示するサンプル。" />
   </component>
 </project>
