@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="strtotime関数を使い日付・時間表示するサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/json_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="jsonを扱うサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/mkdir_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +28,16 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2oFRORF9RMrMG3zKcvNKDhJEZ06" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "PHP スクリプト.access_modifiers_sample.php.executor": "Run",
     "PHP スクリプト.add_value_to_array_sample.php.executor": "Run",
     "PHP スクリプト.array_count_sample.php.executor": "Run",
@@ -94,14 +97,14 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.json_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.mkdir_sample.php">
     <configuration name="exeption_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/exeption_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="json_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/json_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="null_judgment_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/null_judgment_sample.php">
+    <configuration name="mkdir_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/mkdir_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="strtotime_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/strtotime_sample.php">
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.mkdir_sample.php" />
         <item itemvalue="PHP スクリプト.json_sample.php" />
         <item itemvalue="PHP スクリプト.strtotime_sample.php" />
         <item itemvalue="PHP スクリプト.substr_sample.php" />
         <item itemvalue="PHP スクリプト.exeption_sample.php" />
-        <item itemvalue="PHP スクリプト.null_judgment_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +156,7 @@
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
       <workItem from="1735189897895" duration="7904000" />
-      <workItem from="1735684731686" duration="397000" />
+      <workItem from="1735684731686" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -499,14 +502,22 @@
       <option name="project" value="LOCAL" />
       <updated>1735632616762</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="jsonを扱うサンプル。">
+      <option name="closed" value="true" />
+      <created>1735738149537</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1735738149537</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="配列に追加するサンプル。" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="配列の要素数を取得するサンプル。" />
     <MESSAGE value="配列をマージするサンプル。" />
     <MESSAGE value="配列の要素を検索するサンプル。" />
@@ -531,6 +542,7 @@
     <MESSAGE value="例外処理のサンプル。" />
     <MESSAGE value="文字列の一部分を抽出するサンプル。" />
     <MESSAGE value="strtotime関数を使い日付・時間表示するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="strtotime関数を使い日付・時間表示するサンプル。" />
+    <MESSAGE value="jsonを扱うサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsonを扱うサンプル。" />
   </component>
 </project>
