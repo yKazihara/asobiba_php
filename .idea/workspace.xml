@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="includeでファイルを読み込むサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/require_sample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/sample01.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="requireでファイルを読み込むサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/read_csvfile_sample.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/sample01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/sample02.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +74,7 @@
     "PHP スクリプト.json_sample.php.executor": "Run",
     "PHP スクリプト.mkdir_sample.php.executor": "Run",
     "PHP スクリプト.null_judgment_sample.php.executor": "Run",
+    "PHP スクリプト.read_csvfile_sample.php.executor": "Run",
     "PHP スクリプト.require_sample.php.executor": "Run",
     "PHP スクリプト.search_string_sample.php.executor": "Run",
     "PHP スクリプト.sprintf_sample.php.executor": "Run",
@@ -89,6 +91,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/run/IdeaProjects/asobiba_php/sample",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,17 +105,17 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.require_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.read_csvfile_sample.php">
     <configuration name="array_init_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_init_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="include_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/include_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="json_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/json_sample.php">
+    <configuration name="mkdir_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/mkdir_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="mkdir_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/mkdir_sample.php">
+    <configuration name="read_csvfile_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/read_csvfile_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="require_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/require_sample.php">
@@ -120,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.read_csvfile_sample.php" />
         <item itemvalue="PHP スクリプト.require_sample.php" />
         <item itemvalue="PHP スクリプト.include_sample.php" />
         <item itemvalue="PHP スクリプト.array_init_sample.php" />
         <item itemvalue="PHP スクリプト.mkdir_sample.php" />
-        <item itemvalue="PHP スクリプト.json_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +164,7 @@
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
       <workItem from="1735189897895" duration="7904000" />
-      <workItem from="1735684731686" duration="3554000" />
+      <workItem from="1735684731686" duration="4904000" />
     </task>
     <task id="LOCAL-00001" summary="Initialコミット">
       <option name="closed" value="true" />
@@ -539,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735996227705</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="requireでファイルを読み込むサンプル。">
+      <option name="closed" value="true" />
+      <created>1736062961530</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1736062961531</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +558,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="配列のキーが存在するか調べるサンプル。" />
     <MESSAGE value="配列の要素を削除するサンプル。" />
     <MESSAGE value="配列をソートするサンプル。" />
     <MESSAGE value="if文のサンプル。" />
@@ -572,6 +582,7 @@
     <MESSAGE value="ディレクトリを作成するサンプル。" />
     <MESSAGE value="配列を初期化するサンプル。" />
     <MESSAGE value="includeでファイルを読み込むサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="includeでファイルを読み込むサンプル。" />
+    <MESSAGE value="requireでファイルを読み込むサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="requireでファイルを読み込むサンプル。" />
   </component>
 </project>
