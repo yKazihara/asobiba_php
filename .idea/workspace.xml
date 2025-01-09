@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="CSVファイルの書き込みサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/file_get_contents_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="ファイルを読み込むサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/file_put_contents_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,11 +108,11 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.file_get_contents_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.file_put_contents_sample.php">
     <configuration name="file_get_contents_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/file_get_contents_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="include_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/include_sample.php">
+    <configuration name="file_put_contents_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/file_put_contents_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="read_csvfile_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/read_csvfile_sample.php">
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.file_put_contents_sample.php" />
         <item itemvalue="PHP スクリプト.file_get_contents_sample.php" />
         <item itemvalue="PHP スクリプト.write_csv_sample.php" />
         <item itemvalue="PHP スクリプト.read_csvfile_sample.php" />
         <item itemvalue="PHP スクリプト.require_sample.php" />
-        <item itemvalue="PHP スクリプト.include_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -167,15 +167,7 @@
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
       <workItem from="1735189897895" duration="7904000" />
-      <workItem from="1735684731686" duration="6863000" />
-    </task>
-    <task id="LOCAL-00002" summary="ハローワールドパート２">
-      <option name="closed" value="true" />
-      <created>1732366355819</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1732366355819</updated>
+      <workItem from="1735684731686" duration="7568000" />
     </task>
     <task id="LOCAL-00003" summary="四則演算サンプル">
       <option name="closed" value="true" />
@@ -561,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736213462825</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="ファイルを読み込むサンプル。">
+      <option name="closed" value="true" />
+      <created>1736319067817</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1736319067817</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +569,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="if文のサンプル。" />
     <MESSAGE value="elseif文のサンプル。" />
     <MESSAGE value="switch文のサンプル。" />
     <MESSAGE value="三項演算子のサンプル。" />
@@ -594,6 +593,7 @@
     <MESSAGE value="requireでファイルを読み込むサンプル。" />
     <MESSAGE value="CSVファイルの読み込みサンプル。" />
     <MESSAGE value="CSVファイルの書き込みサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSVファイルの書き込みサンプル。" />
+    <MESSAGE value="ファイルを読み込むサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ファイルを読み込むサンプル。" />
   </component>
 </project>
