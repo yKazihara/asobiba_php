@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="ファイルに書き込むサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/array_unique_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="配列の値重複を除去するサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/type_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +86,7 @@
     "PHP スクリプト.switch_sample.php.executor": "Run",
     "PHP スクリプト.ternary_operator_sample.php.executor": "Run",
     "PHP スクリプト.trim_sample.php.executor": "Run",
+    "PHP スクリプト.type_sample.php.executor": "Run",
     "PHP スクリプト.variable_instance_sample.php.executor": "Run",
     "PHP スクリプト.while_sample.php.executor": "Run",
     "PHP スクリプト.write_csv_sample.php.executor": "Run",
@@ -110,7 +111,7 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.array_unique_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.type_sample.php">
     <configuration name="array_unique_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_unique_sample.php">
       <method v="2" />
     </configuration>
@@ -120,7 +121,7 @@
     <configuration name="file_put_contents_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/file_put_contents_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="read_csvfile_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/read_csvfile_sample.php">
+    <configuration name="type_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/type_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="write_csv_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/write_csv_sample.php">
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.type_sample.php" />
         <item itemvalue="PHP スクリプト.array_unique_sample.php" />
         <item itemvalue="PHP スクリプト.file_put_contents_sample.php" />
         <item itemvalue="PHP スクリプト.file_get_contents_sample.php" />
         <item itemvalue="PHP スクリプト.write_csv_sample.php" />
-        <item itemvalue="PHP スクリプト.read_csvfile_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -169,15 +170,7 @@
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
       <workItem from="1735189897895" duration="7904000" />
-      <workItem from="1735684731686" duration="8569000" />
-    </task>
-    <task id="LOCAL-00004" summary="printf、sprintf、nl2brのサンプル">
-      <option name="closed" value="true" />
-      <created>1732453127343</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1732453127343</updated>
+      <workItem from="1735684731686" duration="10622000" />
     </task>
     <task id="LOCAL-00005" summary="arrayのサンプル">
       <option name="closed" value="true" />
@@ -563,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736404339361</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="配列の値重複を除去するサンプル。">
+      <option name="closed" value="true" />
+      <created>1736472670464</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1736472670465</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +572,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="switch文のサンプル。" />
     <MESSAGE value="三項演算子のサンプル。" />
     <MESSAGE value="whileとdo whileのサンプル。" />
     <MESSAGE value="for文のサンプル。" />
@@ -596,6 +596,7 @@
     <MESSAGE value="CSVファイルの書き込みサンプル。" />
     <MESSAGE value="ファイルを読み込むサンプル。" />
     <MESSAGE value="ファイルに書き込むサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ファイルに書き込むサンプル。" />
+    <MESSAGE value="配列の値重複を除去するサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="配列の値重複を除去するサンプル。" />
   </component>
 </project>
