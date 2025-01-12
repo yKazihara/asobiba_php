@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="型のサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/variable_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="変数のサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/variable_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/variable_sample.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,15 +171,7 @@
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
       <workItem from="1735189897895" duration="7904000" />
-      <workItem from="1735684731686" duration="11583000" />
-    </task>
-    <task id="LOCAL-00006" summary="ループ（foreach） asの後の引数に&amp;をつけると、参照渡しになるサンプル">
-      <option name="closed" value="true" />
-      <created>1732625644214</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1732625644214</updated>
+      <workItem from="1735684731686" duration="12300000" />
     </task>
     <task id="LOCAL-00007" summary="foreachとifのサンプル">
       <option name="closed" value="true" />
@@ -565,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736513264305</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="変数のサンプル。">
+      <option name="closed" value="true" />
+      <created>1736600323525</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1736600323525</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +573,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="whileとdo whileのサンプル。" />
     <MESSAGE value="for文のサンプル。" />
     <MESSAGE value="foreachのサンプル追記。" />
     <MESSAGE value="breakとcontinueのサンプル。" />
@@ -598,6 +597,7 @@
     <MESSAGE value="ファイルに書き込むサンプル。" />
     <MESSAGE value="配列の値重複を除去するサンプル。" />
     <MESSAGE value="型のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="型のサンプル。" />
+    <MESSAGE value="変数のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="変数のサンプル。" />
   </component>
 </project>
