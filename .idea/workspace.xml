@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="変数のサンプル。">
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="変数のサンプルに追記。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/variable_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/variable_sample.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,11 +111,11 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.variable_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.constant_sample.php">
     <configuration name="array_unique_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_unique_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="file_get_contents_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/file_get_contents_sample.php">
+    <configuration name="constant_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/constant_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="file_put_contents_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/file_put_contents_sample.php">
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.constant_sample.php" />
         <item itemvalue="PHP スクリプト.variable_sample.php" />
         <item itemvalue="PHP スクリプト.type_sample.php" />
         <item itemvalue="PHP スクリプト.array_unique_sample.php" />
         <item itemvalue="PHP スクリプト.file_put_contents_sample.php" />
-        <item itemvalue="PHP スクリプト.file_get_contents_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -171,15 +170,7 @@
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
       <workItem from="1735189897895" duration="7904000" />
-      <workItem from="1735684731686" duration="12300000" />
-    </task>
-    <task id="LOCAL-00007" summary="foreachとifのサンプル">
-      <option name="closed" value="true" />
-      <created>1732711609419</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1732711609419</updated>
+      <workItem from="1735684731686" duration="12878000" />
     </task>
     <task id="LOCAL-00008" summary="コメントのサンプル">
       <option name="closed" value="true" />
@@ -565,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736600323525</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="変数のサンプルに追記。">
+      <option name="closed" value="true" />
+      <created>1736685163015</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1736685163015</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +572,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="for文のサンプル。" />
     <MESSAGE value="foreachのサンプル追記。" />
     <MESSAGE value="breakとcontinueのサンプル。" />
     <MESSAGE value="関数のサンプル。" />
@@ -598,6 +596,7 @@
     <MESSAGE value="配列の値重複を除去するサンプル。" />
     <MESSAGE value="型のサンプル。" />
     <MESSAGE value="変数のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="変数のサンプル。" />
+    <MESSAGE value="変数のサンプルに追記。" />
+    <option name="LAST_COMMIT_MESSAGE" value="変数のサンプルに追記。" />
   </component>
 </project>

@@ -19,4 +19,12 @@ echo "$bar\n";          // BBB が出力される
 echo "\n";
 
 // 可変変数($$xxx)
-// 追記予定。
+// 変数名を変数で表現することも可能??? なるほど。
+$var1 = "AAA";
+$var2 = "BBB";
+
+$name = "var1";
+echo $$name."\n";    // AAA が出力される
+
+$name = "var2";
+echo $$name."\n";    // BBB が出力される
