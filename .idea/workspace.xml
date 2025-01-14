@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="変数のサンプルに追記。">
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="変数のサンプルに追記、定数のサンプルをコミット。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/array_init_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/array_init_sample.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JavaScript デバッグ.array_init_sample.php.executor": "Run",
     "PHP スクリプト.access_modifiers_sample.php.executor": "Run",
     "PHP スクリプト.add_value_to_array_sample.php.executor": "Run",
     "PHP スクリプト.array_count_sample.php.executor": "Run",
@@ -53,6 +55,7 @@
     "PHP スクリプト.class_extends_sample.php.executor": "Run",
     "PHP スクリプト.class_sample.php.executor": "Run",
     "PHP スクリプト.comment_sample.php.executor": "Run",
+    "PHP スクリプト.constant_sample.php.executor": "Run",
     "PHP スクリプト.construct_sample.php.executor": "Run",
     "PHP スクリプト.date_sample.php.executor": "Run",
     "PHP スクリプト.elseif_sample.php.executor": "Run",
@@ -111,14 +114,14 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.constant_sample.php">
-    <configuration name="array_unique_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_unique_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.array_init_sample.php">
+    <configuration name="array_init_sample.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/asobiba_php/sample/array_init_sample.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="array_init_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_init_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="constant_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/constant_sample.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="file_put_contents_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/file_put_contents_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="type_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/type_sample.php">
@@ -129,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.array_init_sample.php" />
+        <item itemvalue="JavaScript デバッグ.array_init_sample.php" />
         <item itemvalue="PHP スクリプト.constant_sample.php" />
         <item itemvalue="PHP スクリプト.variable_sample.php" />
         <item itemvalue="PHP スクリプト.type_sample.php" />
-        <item itemvalue="PHP スクリプト.array_unique_sample.php" />
-        <item itemvalue="PHP スクリプト.file_put_contents_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -170,15 +173,7 @@
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
       <workItem from="1735189897895" duration="7904000" />
-      <workItem from="1735684731686" duration="12878000" />
-    </task>
-    <task id="LOCAL-00008" summary="コメントのサンプル">
-      <option name="closed" value="true" />
-      <created>1732797552928</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1732797552928</updated>
+      <workItem from="1735684731686" duration="14385000" />
     </task>
     <task id="LOCAL-00009" summary="日付のサンプル。ちょっとモヤッとする。">
       <option name="closed" value="true" />
@@ -564,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736685163015</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="変数のサンプルに追記、定数のサンプルをコミット。">
+      <option name="closed" value="true" />
+      <created>1736745323833</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1736745323833</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +575,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="foreachのサンプル追記。" />
     <MESSAGE value="breakとcontinueのサンプル。" />
     <MESSAGE value="関数のサンプル。" />
     <MESSAGE value="クラスのサンプル。" />
@@ -597,6 +599,7 @@
     <MESSAGE value="型のサンプル。" />
     <MESSAGE value="変数のサンプル。" />
     <MESSAGE value="変数のサンプルに追記。" />
-    <option name="LAST_COMMIT_MESSAGE" value="変数のサンプルに追記。" />
+    <MESSAGE value="変数のサンプルに追記、定数のサンプルをコミット。" />
+    <option name="LAST_COMMIT_MESSAGE" value="変数のサンプルに追記、定数のサンプルをコミット。" />
   </component>
 </project>
