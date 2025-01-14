@@ -114,7 +114,7 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.array_init_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.list_sample.php">
     <configuration name="array_init_sample.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/asobiba_php/sample/array_init_sample.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -124,7 +124,7 @@
     <configuration name="constant_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/constant_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="type_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/type_sample.php">
+    <configuration name="list_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/list_sample.php">
       <method v="2" />
     </configuration>
     <configuration name="variable_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/variable_sample.php">
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.list_sample.php" />
         <item itemvalue="PHP スクリプト.array_init_sample.php" />
         <item itemvalue="JavaScript デバッグ.array_init_sample.php" />
         <item itemvalue="PHP スクリプト.constant_sample.php" />
         <item itemvalue="PHP スクリプト.variable_sample.php" />
-        <item itemvalue="PHP スクリプト.type_sample.php" />
       </list>
     </recent_temporary>
   </component>
