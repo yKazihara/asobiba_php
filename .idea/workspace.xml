@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="変数のサンプルに追記、定数のサンプルをコミット。">
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="関数の戻り値で配列を受け取るサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/array_init_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/array_init_sample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/function_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/function_sample.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
     "PHP スクリプト.if_sample.php.executor": "Run",
     "PHP スクリプト.include_sample.php.executor": "Run",
     "PHP スクリプト.json_sample.php.executor": "Run",
+    "PHP スクリプト.list_sample.php.executor": "Run",
     "PHP スクリプト.mkdir_sample.php.executor": "Run",
     "PHP スクリプト.null_judgment_sample.php.executor": "Run",
     "PHP スクリプト.read_csvfile_sample.php.executor": "Run",
@@ -114,7 +115,7 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.list_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.function_sample.php">
     <configuration name="array_init_sample.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/asobiba_php/sample/array_init_sample.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -124,19 +125,19 @@
     <configuration name="constant_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/constant_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="list_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/list_sample.php">
+    <configuration name="function_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/function_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="variable_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/variable_sample.php">
+    <configuration name="list_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/list_sample.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.function_sample.php" />
         <item itemvalue="PHP スクリプト.list_sample.php" />
         <item itemvalue="PHP スクリプト.array_init_sample.php" />
         <item itemvalue="JavaScript デバッグ.array_init_sample.php" />
         <item itemvalue="PHP スクリプト.constant_sample.php" />
-        <item itemvalue="PHP スクリプト.variable_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -173,23 +174,7 @@
       <workItem from="1735044429306" duration="392000" />
       <workItem from="1735130846460" duration="434000" />
       <workItem from="1735189897895" duration="7904000" />
-      <workItem from="1735684731686" duration="14385000" />
-    </task>
-    <task id="LOCAL-00009" summary="日付のサンプル。ちょっとモヤッとする。">
-      <option name="closed" value="true" />
-      <created>1732797833714</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1732797833714</updated>
-    </task>
-    <task id="LOCAL-00010" summary="globalのサンプル。読みにくいなぁ。">
-      <option name="closed" value="true" />
-      <created>1732887373318</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1732887373318</updated>
+      <workItem from="1735684731686" duration="16337000" />
     </task>
     <task id="LOCAL-00011" summary="文字連結のサンプル。">
       <option name="closed" value="true" />
@@ -567,7 +552,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736745323833</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="arrayの初期化サンプルに追記。">
+      <option name="closed" value="true" />
+      <created>1736830597664</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1736830597664</updated>
+    </task>
+    <task id="LOCAL-00059" summary="関数の戻り値で配列を受け取るサンプル。">
+      <option name="closed" value="true" />
+      <created>1736830867575</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1736830867575</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,8 +576,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="breakとcontinueのサンプル。" />
-    <MESSAGE value="関数のサンプル。" />
     <MESSAGE value="クラスのサンプル。" />
     <MESSAGE value="コンストラクタのサンプル。" />
     <MESSAGE value="クラス変数とインスタンス変数のサンプル。" />
@@ -600,6 +599,8 @@
     <MESSAGE value="変数のサンプル。" />
     <MESSAGE value="変数のサンプルに追記。" />
     <MESSAGE value="変数のサンプルに追記、定数のサンプルをコミット。" />
-    <option name="LAST_COMMIT_MESSAGE" value="変数のサンプルに追記、定数のサンプルをコミット。" />
+    <MESSAGE value="arrayの初期化サンプルに追記。" />
+    <MESSAGE value="関数の戻り値で配列を受け取るサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="関数の戻り値で配列を受け取るサンプル。" />
   </component>
 </project>
