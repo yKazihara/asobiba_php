@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="可変長引数関数、可変関数、無名関数のサンプル。">
-      <change afterPath="$PROJECT_DIR$/sample/clone_sample.php" afterDir="false" />
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="オブジェクトのcloneのサンプル。">
+      <change afterPath="$PROJECT_DIR$/sample/output_sample.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/class_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/class_sample.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +79,7 @@
     "PHP スクリプト.list_sample.php.executor": "Run",
     "PHP スクリプト.mkdir_sample.php.executor": "Run",
     "PHP スクリプト.null_judgment_sample.php.executor": "Run",
+    "PHP スクリプト.output_sample.php.executor": "Run",
     "PHP スクリプト.read_csvfile_sample.php.executor": "Run",
     "PHP スクリプト.require_sample.php.executor": "Run",
     "PHP スクリプト.search_string_sample.php.executor": "Run",
@@ -117,10 +117,7 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.clone_sample.php">
-    <configuration name="array_init_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/array_init_sample.php">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP スクリプト.output_sample.php">
     <configuration name="class_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/class_sample.php">
       <method v="2" />
     </configuration>
@@ -133,13 +130,16 @@
     <configuration name="list_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/list_sample.php">
       <method v="2" />
     </configuration>
+    <configuration name="output_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/output_sample.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.output_sample.php" />
         <item itemvalue="PHP スクリプト.clone_sample.php" />
         <item itemvalue="PHP スクリプト.class_sample.php" />
         <item itemvalue="PHP スクリプト.function_sample.php" />
         <item itemvalue="PHP スクリプト.list_sample.php" />
-        <item itemvalue="PHP スクリプト.array_init_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -178,15 +178,9 @@
       <workItem from="1735189897895" duration="7904000" />
       <workItem from="1735684731686" duration="16869000" />
       <workItem from="1736974754370" duration="138000" />
-      <workItem from="1737012884277" duration="509000" />
-    </task>
-    <task id="LOCAL-00012" summary="文字分割のサンプル。">
-      <option name="closed" value="true" />
-      <created>1733050176166</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1733050176166</updated>
+      <workItem from="1737012884277" duration="525000" />
+      <workItem from="1737030456975" duration="24000" />
+      <workItem from="1737080212165" duration="591000" />
     </task>
     <task id="LOCAL-00013" summary="文字比較のサンプル。">
       <option name="closed" value="true" />
@@ -572,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736944760316</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="オブジェクトのcloneのサンプル。">
+      <option name="closed" value="true" />
+      <created>1737013622893</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1737013622893</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +582,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="コンストラクタのサンプル。" />
     <MESSAGE value="クラス変数とインスタンス変数のサンプル。" />
     <MESSAGE value="アクセス修飾子のサンプル。" />
     <MESSAGE value="クラスを継承するサンプル。" />
@@ -605,6 +606,7 @@
     <MESSAGE value="arrayの初期化サンプルに追記。" />
     <MESSAGE value="関数の戻り値で配列を受け取るサンプル。" />
     <MESSAGE value="可変長引数関数、可変関数、無名関数のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="可変長引数関数、可変関数、無名関数のサンプル。" />
+    <MESSAGE value="オブジェクトのcloneのサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="オブジェクトのcloneのサンプル。" />
   </component>
 </project>
