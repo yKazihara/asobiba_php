@@ -1,8 +1,12 @@
 <?php
 // 標準出力の書き出し(echo, print)
-echo "Hello!\n";
-print "Bye!\n";
-//Hello!
+echo "Hello!\n"; //Hello!
+echo '出身地:', '東京都'; // 出身地:東京都 2つでも出力される
+echo "\n";
+
+echo "-----\n";
+
+print "Bye!\n"; // echoとちがって一つしか設定できない
 //Bye!
 
 echo "-----\n";
