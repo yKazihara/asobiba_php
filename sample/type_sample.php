@@ -20,8 +20,11 @@ $bool = True;
 // 文字列(string)
 $str1 = 'Hello';
 $str2 = "Hello";
-$str3 = 'He said: "I\'ll be back."';  // エスケープ
-$str4 = "He said: \"I'll be back.\""; // エスケープ
+// エスケープ
+$str3 = 'He said: "I\'ll be back."';
+$str4 = "He said: \"I'll be back.\"";
+echo "こんにちは。\nお元気ですか\n";
+echo "値段は\$100です\n";
 
 $name = "Tanaka.";
 echo "My name is $name\n";

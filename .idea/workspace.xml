@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="文字列を連結するサンプル。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/output_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/output_sample.php" afterDir="false" />
-    </list>
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="文字列の出力に使用するechoとprintの違いサンプルの追記。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +115,7 @@
       <recent name="$PROJECT_DIR$/sample" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP スクリプト.output_sample.php">
+  <component name="RunManager" selected="PHP スクリプト.type_sample.php">
     <configuration name="class_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/class_sample.php">
       <method v="2" />
     </configuration>
@@ -128,19 +125,19 @@
     <configuration name="concatenating_strings_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/concatenating_strings_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="function_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/function_sample.php">
+    <configuration name="output_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/output_sample.php">
       <method v="2" />
     </configuration>
-    <configuration name="output_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/output_sample.php">
+    <configuration name="type_sample.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sample/type_sample.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP スクリプト.type_sample.php" />
         <item itemvalue="PHP スクリプト.output_sample.php" />
         <item itemvalue="PHP スクリプト.concatenating_strings_sample.php" />
         <item itemvalue="PHP スクリプト.clone_sample.php" />
         <item itemvalue="PHP スクリプト.class_sample.php" />
-        <item itemvalue="PHP スクリプト.function_sample.php" />
       </list>
     </recent_temporary>
   </component>
@@ -184,15 +181,7 @@
       <workItem from="1737080212165" duration="697000" />
       <workItem from="1737118371780" duration="18000" />
       <workItem from="1737199796272" duration="343000" />
-      <workItem from="1737280537293" duration="330000" />
-    </task>
-    <task id="LOCAL-00016" summary="文字列検索のサンプル。">
-      <option name="closed" value="true" />
-      <created>1733402708823</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1733402708823</updated>
+      <workItem from="1737280537293" duration="384000" />
     </task>
     <task id="LOCAL-00017" summary="trimのサンプル。">
       <option name="closed" value="true" />
@@ -578,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737200138637</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="文字列の出力に使用するechoとprintの違いサンプルの追記。">
+      <option name="closed" value="true" />
+      <created>1737280901462</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1737280901463</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +583,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="NULL判定のサンプル。" />
     <MESSAGE value="例外処理のサンプル。" />
     <MESSAGE value="文字列の一部分を抽出するサンプル。" />
     <MESSAGE value="strtotime関数を使い日付・時間表示するサンプル。" />
@@ -611,6 +607,7 @@
     <MESSAGE value="入力のサンプル。" />
     <MESSAGE value="出力のサンプル。" />
     <MESSAGE value="文字列を連結するサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字列を連結するサンプル。" />
+    <MESSAGE value="文字列の出力に使用するechoとprintの違いサンプルの追記。" />
+    <option name="LAST_COMMIT_MESSAGE" value="文字列の出力に使用するechoとprintの違いサンプルの追記。" />
   </component>
 </project>
