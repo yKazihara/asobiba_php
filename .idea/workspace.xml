@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="四則演算のサンプル。">
+    <list default="true" id="67de677c-142d-4d44-8d9e-5a44c612dba9" name="変更" comment="演算子の優先順位のサンプル。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample/calc_sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample/calc_sample.php" afterDir="false" />
     </list>
@@ -189,15 +189,8 @@
       <workItem from="1737376631320" duration="281000" />
       <workItem from="1737425766179" duration="503000" />
       <workItem from="1737462328963" duration="19000" />
-      <workItem from="1737509017121" duration="701000" />
-    </task>
-    <task id="LOCAL-00019" summary="配列に追加するサンプル。">
-      <option name="closed" value="true" />
-      <created>1733662384539</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1733662384539</updated>
+      <workItem from="1737509017121" duration="717000" />
+      <workItem from="1737549183802" duration="520000" />
     </task>
     <task id="LOCAL-00020" summary="配列の要素数を取得するサンプル。">
       <option name="closed" value="true" />
@@ -583,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737428177396</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="演算子の優先順位のサンプル。">
+      <option name="closed" value="true" />
+      <created>1737509766907</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1737509766907</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="strtotime関数を使い日付・時間表示するサンプル。" />
     <MESSAGE value="jsonを扱うサンプル。" />
     <MESSAGE value="ディレクトリを作成するサンプル。" />
     <MESSAGE value="配列を初期化するサンプル。" />
@@ -616,6 +616,7 @@
     <MESSAGE value="文字列の出力に使用するechoとprintの違いサンプルの追記。" />
     <MESSAGE value="エスケープシーケンスサンプルの追記。" />
     <MESSAGE value="四則演算のサンプル。" />
-    <option name="LAST_COMMIT_MESSAGE" value="四則演算のサンプル。" />
+    <MESSAGE value="演算子の優先順位のサンプル。" />
+    <option name="LAST_COMMIT_MESSAGE" value="演算子の優先順位のサンプル。" />
   </component>
 </project>
