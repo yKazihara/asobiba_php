@@ -7,7 +7,7 @@ $名前 = "田中";      // 日本語も使用可能なの？！
 echo $名前; # 田中って表示されるわ・・・。
 #$365days = "";    // 先頭が数字なので使用できない
 
-echo "\n";
+echo "-----\n";
 
 // 変数の参照(&$xxx)
 $foo = "AAA";           // 変数 $foo に "AAA" を代入する
@@ -16,7 +16,7 @@ $bar = "BBB";           // $bar を変更する (実体である $foo も変更�
 echo "$foo\n";          // BBB が出力される
 echo "$bar\n";          // BBB が出力される
 
-echo "\n";
+echo "-----\n";
 
 // 可変変数($$xxx)
 // 変数名を変数で表現することも可能??? なるほど。
@@ -28,3 +28,13 @@ echo $$name."\n";    // AAA が出力される
 
 $name = "var2";
 echo $$name."\n";    // BBB が出力される
+
+echo "-----\n";
+
+$var = '高橋';
+print '[値]'.$var."\n"; // [値]高橋
+print '[型]'.gettype($var)."\n"; // [型]string
+
+$var = 180;
+print '[値]'.$var."\n"; // [値]180
+print '[型]'.gettype($var)."\n"; // [型]integer
